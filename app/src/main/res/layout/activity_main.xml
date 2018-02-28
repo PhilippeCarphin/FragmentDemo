@@ -15,12 +15,11 @@
         android:id="@+id/list_frag"
         />
 
-    <!-- TODO change to frame layout, come back to this later -->
-    <fragment
+    <FrameLayout
         android:layout_width="0dp"
         android:layout_weight="3"
         android:layout_height="match_parent"
-        android:id="@+id/detail_frag"
+        android:id="@+id/fragment_container"
         class="com.example.pcarphin.fragmentdemo.MenuDetailFragment"
         />
 
