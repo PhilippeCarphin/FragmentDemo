@@ -1,9 +1,10 @@
 package com.example.pcarphin.fragmentdemo;
 
 import android.support.v7.app.AppCompatActivity;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements MenuListFragment.MenuListListener {
 
     public static final MenuItem[] menu = {
             new MenuItem(
@@ -19,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
                     "2 eggs bacon\nserved with potatoes\ntoast\nand coffee"
             )
     };
+
+    public void itemClicked(long id){
+
+    }
 
     private MenuDetailFragment menuDetailFragment;
 

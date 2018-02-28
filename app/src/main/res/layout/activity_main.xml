@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.pcarphin.fragmentdemo.MainActivity">
-    
+
     <fragment
         android:layout_width="0dp"
         android:layout_weight="2"
@@ -15,9 +15,10 @@
         android:id="@+id/list_frag"
         />
 
+    <!-- TODO change to frame layout, come back to this later -->
     <fragment
         android:layout_width="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:layout_height="match_parent"
         android:id="@+id/detail_frag"
         class="com.example.pcarphin.fragmentdemo.MenuDetailFragment"
